@@ -1,117 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Denis Novik</title>
-    <link rel="stylesheet" href="/font/stylesheet.css">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
+    <input type="checkbox" id="check">
+    <label for="check" id="label"><span></span></label>
     <nav>
         <a href="#home" class="active">Home</a>
         <a href="#about">About me</a>
         <a href="#skills">Skills</a>
-        <a href="">Portfolio</a>
-        <a href="">Contacts</a>
+        <a href="portfolio">Portfolio</a>
+        <a href="contacts">Contacts</a>
+        <p class="rueng">RU <span>| ENG</span></p>
     </nav>
     <header>
-    <div class="text">
-        <h2>Denis<br>Novik</h2>
-        <p>UX | UI designer<br>24 years old, Minsk</p>
-        <p class="rueng">RU | <span>ENG</span></p>
-    </div>
-    <div class="photo">
-        <img src="/img/473d92de61764f572524ac59200c7086.jpeg" alt="DevisNovik">
-    </div>
+        <div class="text">
+            <h2>Denis<br>Novik</h2>
+            <p>UX | UI designer<br>24 years old, Minsk</p>
+            <p class="rueng">RU <span>| ENG</span></p>
+        </div>
+        <div class="photo">
+            <img src="/img/473d92de61764f572524ac59200c7086.jpeg" alt="photo">
+        </div>
     </header>
     <section class="about">
         <h2>About me</h2>
-        <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.</p>
-        <p>I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
-        <p>Ready to implement excellent projects<br>with wonderful people.</p>
+        <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>
+            I'm interested in design and everything connected with it.
+        </p>
+        <p>I'm studying at courses "Web and mobile design<br> interfaces" in IT-Academy.
+        </p>
+        <p>Ready to implement excellent projects<br> with wonderful people.</p>
     </section>
     <section class="skills">
         <h2>Skills</h2>
         <p>I work in such programs as</p>
-        <div class="program">
-        <div>
-            <img src="/icons/PS.png" alt="Adobe
-            Photoshop">
-            <p>Adobe<br>Photoshop</p>
-            <div class="stars">
-                <img src="/icons/BlackStar.png" alt="stars">
-                <img src="/icons/BlackStar.png" alt="stars">
-                <img src="/icons/BlackStar.png" alt="stars">
-                <img src="/icons/BlackStar.png" alt="stars">
-                <img src="/icons/Star.png" alt="stars">
-            </div>
-        </div>
-        <div>
-            <img src="/icons/AI.png" alt="AI">
-            <p>Adobe<br>Illustrator</p>
-            <div class="stars">
-                <img src="/icons/BlackStar.png" alt="stars">
-                <img src="/icons/BlackStar.png" alt="stars">
-                <img src="/icons/BlackStar.png" alt="stars">
-                <img src="/icons/Star.png" alt="stars">
-                <img src="/icons/Star.png" alt="stars">
-            </div>
-        </div>
-            <div>
-                <img src="/icons/AE.png" alt="AE">
-                <p>Adobe<br>After Effects</p>
+        <div class="skillslist">
+            <div class="skill">
+                <div>
+                    <img src="/icons/PS.png" alt="ps">
+                    <p>Adobe<br>Photoshop</p>
+                </div>
                 <div class="stars">
-                    <img src="/icons/BlackStar.png" alt="stars">
-                    <img src="/icons/BlackStar.png" alt="stars">
-                    <img src="/icons/BlackStar.png" alt="stars">
-                    <img src="/icons/BlackStar.png" alt="stars">
-                    <img src="/icons/Star.png" alt="stars">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/Star.png" alt="star">
                 </div>
             </div>
-            <div>
-                <img src="/icons/Figma.png" alt="Figma">
-                <p>Figma</p>
+            <div class="skill">
+                <div>
+                    <img src="/icons/AI.png" alt="ai">
+                    <p>Adobe<br>Illustrator</p>
+                </div>
                 <div class="stars">
-                    <img src="/icons/BlackStar.png" alt="stars">
-                    <img src="/icons/BlackStar.png" alt="stars">
-                    <img src="/icons/BlackStar.png" alt="stars">
-                    <img src="/icons/BlackStar.png" alt="stars">
-                    <img src="/icons/Star.png" alt="stars">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/star.png" alt="star">
+                    <img src="/icons/star.png" alt="star">
                 </div>
             </div>
-        </div>
+            <div class="skill">
+                <div>
+                    <img src="/icons/AE.png" alt="ae">
+                    <p>Adobe<br>After Effects</p>
+                </div>
+                <div class="stars">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/star.png" alt="star">
+                </div>
+            </div>
+            <div class="skill">
+                <div>
+                    <img src="/icons/Figma.png" alt="figma">
+                    <p>Figma</p>
+                </div>
+                <div class="stars">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/BlackStar.png" alt="star">
+                    <img src="/icons/star.png" alt="star">
+                </div>
+            </div>
         </div>
     </section>
     <section class="portfolio">
         <h2>Portfolio</h2>
-            <div>
-                <img src="/img/Portfolio.jpeg" alt="levis">
-                <p><a href="#">Online fashion store - Homepage</a></p>
+        <div class="site first">
+            <div class="photo">
+                <img src="/img/Portfolio.jpeg" alt="site">
             </div>
-            <div>
-                <img src="/img/reebok_web.png" alt="reebok">
-                <p><a href="#">Reebok Store - Concept</a></p>
-            </div>
-            <div>
-                <img src="/img/Braun.png" alt="braun">
-                <p><a href="#">Braun Landing Page - Concept</a></p>
-            </div>
-    </section>
-    <footer class="contacts">
-        <h2>Contacts</h2>
-        <p class="welcome">Want to know more or just chat?<br>You are welcome!</p>
-        <button>Send message</button>
-        <div>
-            <img src="/icons/in.svg" alt="LinkedIn">
-            <img src="/icons/instagram.svg" alt="instagram">
-            <img src="/icons/behance.png" alt="behance">
-            <img src="/icons/dribble.svg" alt="dribble">
+            <p>Online fashion store - Homepage</p>
         </div>
-        <p class="like">Like me on <br>LinkedIn, Instagram, Behance, Dribble</p>
-
+        <div class="site">
+            <div class="photo">
+                <img src="/img/reebok_web.png" alt="site">
+            </div>
+            <p>Reebok Store - Concept</p>
+        </div>
+        <div class="site">
+            <div class="photo">
+                <img src="/img/Braun.png" alt="site">
+            </div>
+            <p>Braun Landing Page - Concept</p>
+        </div>
+    </section>
+    <footer>
+        <h2>Contacts</h2>
+        <p>Want to know more or just chat?<br>
+            You are welcome!</p>
+            <button>Send message</button>
+            <div class="icons">
+                <img src="/icons/in.svg" alt="in">
+                <img src="/icons/instagram.svg" alt="instagram">
+                <img src="/icons/behance.png" alt="behance">
+                <img src="/icons/dribble.svg" alt="ball">
+            </div>
+            <p class="like">Like me on<br>
+                LinkedIn, Instagram, Behance, Dribble</p>
     </footer>
 </body>
+
 </html>
